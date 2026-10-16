@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>BeWE | Espace de gestion du Réseau</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="app">
+<aside class="sidebar">
+  <div class="logo-wrap"><img src="assets/images/logo-bewe.png" alt="Logo officiel BeWE"></div>
+  <div class="network"><b>RÉSEAU BeWE</b><span>Believe in Women Entrepreneurship</span></div>
+  <nav id="nav">
+    <button class="active" data-page="dashboard">⌂ <span>Tableau de bord</span></button>
+    <div class="nav-label">Vie associative</div>
+    <button data-page="members">♙ <span>Membres & adhésions</span></button>
+    <button data-page="cells">◎ <span>Cellules départementales</span></button>
+    <button data-page="governance">◇ <span>Gouvernance & organes</span></button>
+    <button data-page="assemblies">▣ <span>Assemblées & réunions</span></button>
+    <button data-page="decisions">✓ <span>Décisions & registres</span></button>
+    <div class="nav-label">Actions BeWE</div>
+    <button data-page="programs">★ <span>Programmes & activités</span></button>
+    <button data-page="market">↗ <span>Marchés & opportunités</span></button>
+    <button data-page="partners">∞ <span>Partenaires</span></button>
+    <button data-page="communication">◉ <span>Communication</span></button>
+    <div class="nav-label">Gestion</div>
+    <button data-page="finances">₣ <span>Finances & cotisations</span></button>
+    <button data-page="documents">▤ <span>Documents & archives</span></button>
+    <button data-page="reporting">▥ <span>Suivi & rapports</span></button>
+    <button data-page="admin">⚙ <span>Administration</span></button>
+  </nav>
+  <div class="motto">INSPIRONS • ÉDUQUONS • INNOVONS</div>
+</aside>
+<main>
+<header><div><button id="menu">☰</button><input id="search" placeholder="Rechercher un membre, une activité, un document…"></div>
+<div class="user"><button class="pink" id="quick">＋ Créer</button><span class="avatar">ZG</span><span><b>Zaénab Gado</b><small>Administration BeWE</small></span></div></header>
+<section id="content"></section>
+</main></div>
+<div id="modal" class="modal"><div class="modal-card"><button id="close">×</button><h2>Création rapide</h2><p>Choisissez l’élément à créer.</p><div class="quick-grid"><button>Membre</button><button>Activité</button><button>Réunion</button><button>Décision</button><button>Dépense</button><button>Document</button></div></div></div>
+<script src="js/app.js?v=5" defer></script>
+</body></html>
